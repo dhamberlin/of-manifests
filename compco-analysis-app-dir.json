@@ -1,0 +1,28 @@
+{
+    "appId": "expero-compco-analysis-workstack",
+    "name": "expero-compco-analysis-workstack",
+    "title": "CompCo Analysis",
+    "manifestType": "snapshot",
+    "version": null,
+    "intents": [],
+    "publisher": "openfin",
+    "description": "Checkout the latest news.",
+    "manifest": "https://dhamberlin.github.io/of-manifests/compco-analysis.json",
+    "contactEmail": "contact@company.com",
+    "customConfig": [],
+    "supportEmail": "support@company.com",
+    "icons": [
+        {
+            "icon": "https://www.flaticon.com/premium-icon/icons/svg/741/741867.svg"
+        }
+    ],
+    "images": [],
+    "internal": false,
+    "enableLayout": false,
+    "suppressReporting": false,
+    "isCertified": true,
+    "suppressRuntimeAnalytics": false,
+    "enableDosCapture": false,
+    "active": true,
+    "manifest_url": "https://openfin-iex.experolabs.com/openfin/manifests/compco-analysis-workstack.json"
+}

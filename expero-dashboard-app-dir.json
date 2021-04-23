@@ -1,0 +1,28 @@
+{
+    "appId": "expero-workspace-snapshot",
+    "internal": false,
+    "name": "expero-workspace-snapshot",
+    "title": "Expero Dashboard",
+    "manifestType": "snapshot",
+    "version": null,
+    "intents": [],
+    "publisher": "openfin",
+    "description": "Checkout the latest news.",
+    "manifest": "https://dhamberlin.github.io/of-manifests/expero-dashboard.json",
+    "contactEmail": "contact@company.com",
+    "customConfig": [],
+    "supportEmail": "support@company.com",
+    "icons": [
+        {
+            "icon": "https://www.flaticon.com/premium-icon/icons/svg/741/741867.svg"
+        }
+    ],
+    "images": [],
+    "enableLayout": false,
+    "suppressReporting": false,
+    "isCertified": true,
+    "suppressRuntimeAnalytics": false,
+    "enableDosCapture": false,
+    "active": true,
+    "manifest_url": "https://openfin-iex.experolabs.com/openfin/manifests/expero-dashboard.json"
+}

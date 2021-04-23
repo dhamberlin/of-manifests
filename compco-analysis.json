@@ -1,0 +1,912 @@
+{
+    "windows": [
+      {
+        "accelerator": {
+          "devtools": false,
+          "zoom": false,
+          "reload": false,
+          "reloadIgnoringCache": false
+        },
+        "alphaMask": {
+          "blue": -1,
+          "green": -1,
+          "red": -1
+        },
+        "alwaysOnBottom": false,
+        "alwaysOnTop": false,
+        "api": {
+          "iframe": {
+            "crossOriginInjection": false,
+            "sameOriginInjection": true,
+            "enableDeprecatedSharedName": false
+          }
+        },
+        "applicationIcon": "",
+        "aspectRatio": 0,
+        "autoShow": true,
+        "backgroundThrottling": true,
+        "contentNavigation": {
+          "whitelist": [
+            "<all_urls>"
+          ],
+          "blacklist": []
+        },
+        "contentRedirect": {
+          "whitelist": [
+            "<all_urls>"
+          ],
+          "blacklist": []
+        },
+        "contextMenuSettings": {
+          "enable": true,
+          "devtools": true,
+          "reload": false
+        },
+        "cornerRounding": {
+          "height": 0,
+          "width": 0
+        },
+        "defaultHeight": 1000,
+        "defaultLeft": 160,
+        "defaultTop": 20,
+        "defaultWidth": 1600,
+        "draggable": false,
+        "experimental": {
+          "api": {
+            "batching": {
+              "renderer": {
+                "enabled": false,
+                "maxSize": 1.7976931348623157e+308,
+                "ttl": 0
+              }
+            },
+            "breadcrumbs": false,
+            "iframe": {
+              "crossOriginInjection": false,
+              "sameOriginInjection": true,
+              "enableDeprecatedSharedName": false
+            }
+          },
+          "v2Api": true
+        },
+        "frame": false,
+        "frameConnect": "last",
+        "icon": "https://news.artnet.com/app/news-upload/2019/01/Cat-Photog-Feat-256x256.jpg",
+        "maxHeight": -1,
+        "maxWidth": -1,
+        "maximizable": true,
+        "minHeight": 200,
+        "minWidth": 200,
+        "minimizable": true,
+        "opacity": 1,
+        "resizable": true,
+        "resize": true,
+        "resizeRegion": {
+          "bottomRightCorner": 20,
+          "size": 7,
+          "sides": {
+            "top": true,
+            "right": true,
+            "bottom": true,
+            "left": true
+          }
+        },
+        "saveWindowState": false,
+        "shadow": false,
+        "showTaskbarIcon": true,
+        "showBackgroundImages": false,
+        "smallWindow": false,
+        "spellCheck": false,
+        "state": "normal",
+        "taskbarIcon": "",
+        "taskbarIconGroup": "openfin-browser",
+        "transparent": false,
+        "url": "https://home-dev.openfin.co/browser/",
+        "uuid": "openfin-browser",
+        "waitForPageLoad": true,
+        "backgroundColor": "#FFF",
+        "title": "OpenFin Browser",
+        "height": 1000,
+        "width": 1600,
+        "center": true,
+        "userAppConfigArgs": {
+          "_rvmStealFocus": "true"
+        },
+        "workstacks": [
+          {
+            "id": "57f73323-e478-49fb-889a-7becabe88b2f",
+            "name": "CompCo Analysis",
+            "layout": {
+              "settings": {
+                "hasHeaders": true,
+                "constrainDragToContainer": true,
+                "reorderEnabled": true,
+                "selectionEnabled": false,
+                "popoutWholeStack": false,
+                "blockedPopoutsThrowError": true,
+                "closePopoutsOnUnload": true,
+                "showPopoutIcon": false,
+                "showMaximiseIcon": false,
+                "showCloseIcon": false,
+                "responsiveMode": "onload",
+                "tabOverlapAllowance": 0,
+                "reorderOnTabMenuClick": true,
+                "tabControlOffset": 10,
+                "constrainDragToHeaders": false,
+                "preventDragOut": false,
+                "preventDragIn": false
+              },
+              "dimensions": {
+                "borderWidth": 3,
+                "borderGrabWidth": 15,
+                "minItemHeight": 10,
+                "minItemWidth": 10,
+                "headerHeight": 30,
+                "dragProxyWidth": 300,
+                "dragProxyHeight": 200
+              },
+              "labels": {
+                "close": "close",
+                "maximise": "maximise",
+                "minimise": "minimise",
+                "popout": "open in new window",
+                "popin": "pop in",
+                "tabDropdown": "additional tabs"
+              },
+              "content": [
+                {
+                  "type": "row",
+                  "isClosable": true,
+                  "reorderEnabled": true,
+                  "title": "",
+                  "content": [
+                    {
+                      "type": "column",
+                      "isClosable": true,
+                      "reorderEnabled": true,
+                      "title": "",
+                      "width": 100,
+                      "content": [
+                        {
+                          "type": "row",
+                          "isClosable": true,
+                          "reorderEnabled": true,
+                          "title": "",
+                          "height": 60,
+                          "content": [
+                            {
+                              "type": "stack",
+                              "width": 100,
+                              "isClosable": true,
+                              "reorderEnabled": true,
+                              "title": "",
+                              "activeItemIndex": 0,
+                              "height": 100,
+                              "content": [
+                                {
+                                  "type": "component",
+                                  "componentName": "view",
+                                  "componentState": {
+                                    "bounds": {
+                                      "x": 1,
+                                      "y": 1,
+                                      "width": 0,
+                                      "height": 0
+                                    },
+                                    "contextMenu": true,
+                                    "detachOnClose": false,
+                                    "isClosable": true,
+                                    "preventDragOut": false,
+                                    "url": "https://openfin-iex.experolabs.com/#/stock-quote",
+                                    "componentName": "view",
+                                    "preloadScripts": [],
+                                    "backgroundThrottling": true,
+                                    "autoResize": {
+                                      "width": false,
+                                      "height": false
+                                    },
+                                    "name": "expero-iex-comp-chart-view",
+                                    "uuid": "openfin-browser",
+                                    "processAffinity": "openfin-browser",
+                                    "zoomLevel": 0,
+                                    "interop": {
+                                      "contextDeclaration": [
+                                        "instrument"
+                                      ],
+                                      "currentContextGroup": "green"
+                                    },
+                                    "customData": {
+                                      "name": "Comp Chart",
+                                      "preselectPeers": true,
+                                      "id": "86fa767a-822e-467a-97ed-e19faefd5f50"
+                                    },
+                                    "hotkeys": [
+                                      {
+                                        "command": "stack.previousTab",
+                                        "keys": "Ctrl+Shift+Tab"
+                                      },
+                                      {
+                                        "command": "view.zoomIn",
+                                        "keys": "Ctrl+="
+                                      },
+                                      {
+                                        "command": "view.zoomOut",
+                                        "keys": "Ctrl+-"
+                                      },
+                                      {
+                                        "command": "view.zoomReset",
+                                        "keys": "Ctrl+0"
+                                      },
+                                      {
+                                        "command": "view.detach",
+                                        "keys": "Ctrl+Shift+D"
+                                      },
+                                      {
+                                        "command": "view.focusLeft",
+                                        "keys": "Ctrl+Shift+Left"
+                                      },
+                                      {
+                                        "command": "view.focusRight",
+                                        "keys": "Ctrl+Shift+Right"
+                                      },
+                                      {
+                                        "command": "view.focusUp",
+                                        "keys": "Ctrl+Shift+Up"
+                                      },
+                                      {
+                                        "command": "view.focusDown",
+                                        "keys": "Ctrl+Shift+Down"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-1",
+                                        "keys": "Ctrl+1"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-2",
+                                        "keys": "Ctrl+2"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-3",
+                                        "keys": "Ctrl+3"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-4",
+                                        "keys": "Ctrl+4"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-5",
+                                        "keys": "Ctrl+5"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-6",
+                                        "keys": "Ctrl+6"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-7",
+                                        "keys": "Ctrl+7"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-8",
+                                        "keys": "Ctrl+8"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-9",
+                                        "keys": "Ctrl+9"
+                                      },
+                                      {
+                                        "command": "stack.nextTab",
+                                        "keys": "Ctrl+Tab"
+                                      }
+                                    ],
+                                    "initialUrl": "https://openfin-iex.experolabs.com/#/stock-quote"
+                                  },
+                                  "isClosable": true,
+                                  "reorderEnabled": true,
+                                  "title": "Comp Chart"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "row",
+                          "isClosable": true,
+                          "reorderEnabled": true,
+                          "title": "",
+                          "height": 40,
+                          "content": [
+                            {
+                              "type": "column",
+                              "isClosable": true,
+                              "reorderEnabled": true,
+                              "title": "",
+                              "width": 100,
+                              "content": [
+                                {
+                                  "type": "stack",
+                                  "width": 100,
+                                  "isClosable": true,
+                                  "reorderEnabled": true,
+                                  "title": "",
+                                  "activeItemIndex": 0,
+                                  "height": 100,
+                                  "content": [
+                                    {
+                                      "type": "component",
+                                      "componentName": "view",
+                                      "componentState": {
+                                        "bounds": {
+                                          "x": 1,
+                                          "y": 1,
+                                          "width": 0,
+                                          "height": 0
+                                        },
+                                        "contextMenu": true,
+                                        "detachOnClose": false,
+                                        "isClosable": true,
+                                        "preventDragOut": false,
+                                        "url": "https://openfin-iex.experolabs.com/#/comps-lists",
+                                        "componentName": "view",
+                                        "preloadScripts": [],
+                                        "backgroundThrottling": true,
+                                        "autoResize": {
+                                          "width": false,
+                                          "height": false
+                                        },
+                                        "name": "expero-iex-comps-lists",
+                                        "uuid": "openfin-browser",
+                                        "processAffinity": "openfin-browser",
+                                        "zoomLevel": 0,
+                                        "interop": {
+                                          "contextDeclaration": [
+                                            "instrument"
+                                          ],
+                                          "currentContextGroup": "green"
+                                        },
+                                        "hotkeys": [
+                                          {
+                                            "command": "stack.previousTab",
+                                            "keys": "Ctrl+Shift+Tab"
+                                          },
+                                          {
+                                            "command": "view.zoomIn",
+                                            "keys": "Ctrl+="
+                                          },
+                                          {
+                                            "command": "view.zoomOut",
+                                            "keys": "Ctrl+-"
+                                          },
+                                          {
+                                            "command": "view.zoomReset",
+                                            "keys": "Ctrl+0"
+                                          },
+                                          {
+                                            "command": "view.detach",
+                                            "keys": "Ctrl+Shift+D"
+                                          },
+                                          {
+                                            "command": "view.focusLeft",
+                                            "keys": "Ctrl+Shift+Left"
+                                          },
+                                          {
+                                            "command": "view.focusRight",
+                                            "keys": "Ctrl+Shift+Right"
+                                          },
+                                          {
+                                            "command": "view.focusUp",
+                                            "keys": "Ctrl+Shift+Up"
+                                          },
+                                          {
+                                            "command": "view.focusDown",
+                                            "keys": "Ctrl+Shift+Down"
+                                          },
+                                          {
+                                            "command": "stack.nth-tab-1",
+                                            "keys": "Ctrl+1"
+                                          },
+                                          {
+                                            "command": "stack.nth-tab-2",
+                                            "keys": "Ctrl+2"
+                                          },
+                                          {
+                                            "command": "stack.nth-tab-3",
+                                            "keys": "Ctrl+3"
+                                          },
+                                          {
+                                            "command": "stack.nth-tab-4",
+                                            "keys": "Ctrl+4"
+                                          },
+                                          {
+                                            "command": "stack.nth-tab-5",
+                                            "keys": "Ctrl+5"
+                                          },
+                                          {
+                                            "command": "stack.nth-tab-6",
+                                            "keys": "Ctrl+6"
+                                          },
+                                          {
+                                            "command": "stack.nth-tab-7",
+                                            "keys": "Ctrl+7"
+                                          },
+                                          {
+                                            "command": "stack.nth-tab-8",
+                                            "keys": "Ctrl+8"
+                                          },
+                                          {
+                                            "command": "stack.nth-tab-9",
+                                            "keys": "Ctrl+9"
+                                          },
+                                          {
+                                            "command": "stack.nextTab",
+                                            "keys": "Ctrl+Tab"
+                                          }
+                                        ],
+                                        "customData": {
+                                          "id": "4a22d0f8-f969-4939-9efb-57597aafa4ac"
+                                        },
+                                        "initialUrl": "https://openfin-iex.experolabs.com/#/comps-lists"
+                                      },
+                                      "isClosable": true,
+                                      "reorderEnabled": true,
+                                      "title": "Comparison"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "isClosable": true,
+              "reorderEnabled": true,
+              "title": "",
+              "openPopouts": [],
+              "maximisedItemId": null
+            },
+            "isLocked": false,
+            "isReadOnly": false,
+            "isActive": true,
+            "metadata": {
+              "machineId": "42e151e6-9e9c-4497-8f13-c8f055c0dfc7",
+              "machineName": null
+            }
+          }
+        ],
+        "preloadScripts": [],
+        "layout": {
+          "settings": {
+            "hasHeaders": true,
+            "constrainDragToContainer": true,
+            "reorderEnabled": true,
+            "selectionEnabled": false,
+            "popoutWholeStack": false,
+            "blockedPopoutsThrowError": true,
+            "closePopoutsOnUnload": true,
+            "showPopoutIcon": false,
+            "showMaximiseIcon": false,
+            "showCloseIcon": false,
+            "responsiveMode": "onload",
+            "tabOverlapAllowance": 0,
+            "reorderOnTabMenuClick": true,
+            "tabControlOffset": 10,
+            "constrainDragToHeaders": false,
+            "preventDragOut": false,
+            "preventDragIn": false
+          },
+          "dimensions": {
+            "borderWidth": 3,
+            "borderGrabWidth": 15,
+            "minItemHeight": 10,
+            "minItemWidth": 10,
+            "headerHeight": 30,
+            "dragProxyWidth": 300,
+            "dragProxyHeight": 200
+          },
+          "labels": {
+            "close": "close",
+            "maximise": "maximise",
+            "minimise": "minimise",
+            "popout": "open in new window",
+            "popin": "pop in",
+            "tabDropdown": "additional tabs"
+          },
+          "content": [
+            {
+              "type": "row",
+              "isClosable": true,
+              "reorderEnabled": true,
+              "title": "",
+              "content": [
+                {
+                  "type": "column",
+                  "isClosable": true,
+                  "reorderEnabled": true,
+                  "title": "",
+                  "width": 100,
+                  "content": [
+                    {
+                      "type": "row",
+                      "isClosable": true,
+                      "reorderEnabled": true,
+                      "title": "",
+                      "height": 60,
+                      "content": [
+                        {
+                          "type": "stack",
+                          "width": 100,
+                          "isClosable": true,
+                          "reorderEnabled": true,
+                          "title": "",
+                          "activeItemIndex": 0,
+                          "height": 100,
+                          "content": [
+                            {
+                              "type": "component",
+                              "componentName": "view",
+                              "componentState": {
+                                "bounds": {
+                                  "x": 1,
+                                  "y": 1,
+                                  "width": 0,
+                                  "height": 0
+                                },
+                                "contextMenu": true,
+                                "detachOnClose": false,
+                                "isClosable": true,
+                                "preventDragOut": false,
+                                "url": "https://openfin-iex.experolabs.com/#/stock-quote",
+                                "componentName": "view",
+                                "preloadScripts": [],
+                                "backgroundThrottling": true,
+                                "autoResize": {
+                                  "width": false,
+                                  "height": false
+                                },
+                                "name": "expero-iex-comp-chart-view",
+                                "uuid": "openfin-browser",
+                                "processAffinity": "openfin-browser",
+                                "zoomLevel": 0,
+                                "interop": {
+                                  "contextDeclaration": [
+                                    "instrument"
+                                  ],
+                                  "currentContextGroup": "green"
+                                },
+                                "customData": {
+                                  "name": "Comp Chart",
+                                  "preselectPeers": true,
+                                  "id": "86fa767a-822e-467a-97ed-e19faefd5f50"
+                                },
+                                "hotkeys": [
+                                  {
+                                    "command": "stack.previousTab",
+                                    "keys": "Ctrl+Shift+Tab"
+                                  },
+                                  {
+                                    "command": "view.zoomIn",
+                                    "keys": "Ctrl+="
+                                  },
+                                  {
+                                    "command": "view.zoomOut",
+                                    "keys": "Ctrl+-"
+                                  },
+                                  {
+                                    "command": "view.zoomReset",
+                                    "keys": "Ctrl+0"
+                                  },
+                                  {
+                                    "command": "view.detach",
+                                    "keys": "Ctrl+Shift+D"
+                                  },
+                                  {
+                                    "command": "view.focusLeft",
+                                    "keys": "Ctrl+Shift+Left"
+                                  },
+                                  {
+                                    "command": "view.focusRight",
+                                    "keys": "Ctrl+Shift+Right"
+                                  },
+                                  {
+                                    "command": "view.focusUp",
+                                    "keys": "Ctrl+Shift+Up"
+                                  },
+                                  {
+                                    "command": "view.focusDown",
+                                    "keys": "Ctrl+Shift+Down"
+                                  },
+                                  {
+                                    "command": "stack.nth-tab-1",
+                                    "keys": "Ctrl+1"
+                                  },
+                                  {
+                                    "command": "stack.nth-tab-2",
+                                    "keys": "Ctrl+2"
+                                  },
+                                  {
+                                    "command": "stack.nth-tab-3",
+                                    "keys": "Ctrl+3"
+                                  },
+                                  {
+                                    "command": "stack.nth-tab-4",
+                                    "keys": "Ctrl+4"
+                                  },
+                                  {
+                                    "command": "stack.nth-tab-5",
+                                    "keys": "Ctrl+5"
+                                  },
+                                  {
+                                    "command": "stack.nth-tab-6",
+                                    "keys": "Ctrl+6"
+                                  },
+                                  {
+                                    "command": "stack.nth-tab-7",
+                                    "keys": "Ctrl+7"
+                                  },
+                                  {
+                                    "command": "stack.nth-tab-8",
+                                    "keys": "Ctrl+8"
+                                  },
+                                  {
+                                    "command": "stack.nth-tab-9",
+                                    "keys": "Ctrl+9"
+                                  },
+                                  {
+                                    "command": "stack.nextTab",
+                                    "keys": "Ctrl+Tab"
+                                  }
+                                ],
+                                "initialUrl": "https://openfin-iex.experolabs.com/#/stock-quote"
+                              },
+                              "isClosable": true,
+                              "reorderEnabled": true,
+                              "title": "Comp Chart"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "row",
+                      "isClosable": true,
+                      "reorderEnabled": true,
+                      "title": "",
+                      "height": 40,
+                      "content": [
+                        {
+                          "type": "column",
+                          "isClosable": true,
+                          "reorderEnabled": true,
+                          "title": "",
+                          "width": 100,
+                          "content": [
+                            {
+                              "type": "stack",
+                              "width": 100,
+                              "isClosable": true,
+                              "reorderEnabled": true,
+                              "title": "",
+                              "activeItemIndex": 0,
+                              "height": 100,
+                              "content": [
+                                {
+                                  "type": "component",
+                                  "componentName": "view",
+                                  "componentState": {
+                                    "bounds": {
+                                      "x": 1,
+                                      "y": 1,
+                                      "width": 0,
+                                      "height": 0
+                                    },
+                                    "contextMenu": true,
+                                    "detachOnClose": false,
+                                    "isClosable": true,
+                                    "preventDragOut": false,
+                                    "url": "https://openfin-iex.experolabs.com/#/comps-lists",
+                                    "componentName": "view",
+                                    "preloadScripts": [],
+                                    "backgroundThrottling": true,
+                                    "autoResize": {
+                                      "width": false,
+                                      "height": false
+                                    },
+                                    "name": "expero-iex-comps-lists",
+                                    "uuid": "openfin-browser",
+                                    "processAffinity": "openfin-browser",
+                                    "zoomLevel": 0,
+                                    "interop": {
+                                      "contextDeclaration": [
+                                        "instrument"
+                                      ],
+                                      "currentContextGroup": "green"
+                                    },
+                                    "hotkeys": [
+                                      {
+                                        "command": "stack.previousTab",
+                                        "keys": "Ctrl+Shift+Tab"
+                                      },
+                                      {
+                                        "command": "view.zoomIn",
+                                        "keys": "Ctrl+="
+                                      },
+                                      {
+                                        "command": "view.zoomOut",
+                                        "keys": "Ctrl+-"
+                                      },
+                                      {
+                                        "command": "view.zoomReset",
+                                        "keys": "Ctrl+0"
+                                      },
+                                      {
+                                        "command": "view.detach",
+                                        "keys": "Ctrl+Shift+D"
+                                      },
+                                      {
+                                        "command": "view.focusLeft",
+                                        "keys": "Ctrl+Shift+Left"
+                                      },
+                                      {
+                                        "command": "view.focusRight",
+                                        "keys": "Ctrl+Shift+Right"
+                                      },
+                                      {
+                                        "command": "view.focusUp",
+                                        "keys": "Ctrl+Shift+Up"
+                                      },
+                                      {
+                                        "command": "view.focusDown",
+                                        "keys": "Ctrl+Shift+Down"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-1",
+                                        "keys": "Ctrl+1"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-2",
+                                        "keys": "Ctrl+2"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-3",
+                                        "keys": "Ctrl+3"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-4",
+                                        "keys": "Ctrl+4"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-5",
+                                        "keys": "Ctrl+5"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-6",
+                                        "keys": "Ctrl+6"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-7",
+                                        "keys": "Ctrl+7"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-8",
+                                        "keys": "Ctrl+8"
+                                      },
+                                      {
+                                        "command": "stack.nth-tab-9",
+                                        "keys": "Ctrl+9"
+                                      },
+                                      {
+                                        "command": "stack.nextTab",
+                                        "keys": "Ctrl+Tab"
+                                      }
+                                    ],
+                                    "customData": {
+                                      "id": "4a22d0f8-f969-4939-9efb-57597aafa4ac"
+                                    },
+                                    "initialUrl": "https://openfin-iex.experolabs.com/#/comps-lists"
+                                  },
+                                  "isClosable": true,
+                                  "reorderEnabled": true,
+                                  "title": "Comparison"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "isClosable": true,
+          "reorderEnabled": true,
+          "title": "",
+          "openPopouts": [],
+          "maximisedItemId": null
+        },
+        "hotkeys": [
+          {
+            "command": "stack.previousTab",
+            "keys": "Ctrl+Shift+Tab"
+          },
+          {
+            "command": "view.zoomIn",
+            "keys": "Ctrl+="
+          },
+          {
+            "command": "view.zoomOut",
+            "keys": "Ctrl+-"
+          },
+          {
+            "command": "view.zoomReset",
+            "keys": "Ctrl+0"
+          },
+          {
+            "command": "view.detach",
+            "keys": "Ctrl+Shift+D"
+          },
+          {
+            "command": "view.focusLeft",
+            "keys": "Ctrl+Shift+Left"
+          },
+          {
+            "command": "view.focusRight",
+            "keys": "Ctrl+Shift+Right"
+          },
+          {
+            "command": "view.focusUp",
+            "keys": "Ctrl+Shift+Up"
+          },
+          {
+            "command": "view.focusDown",
+            "keys": "Ctrl+Shift+Down"
+          },
+          {
+            "command": "stack.nth-tab-1",
+            "keys": "Ctrl+1"
+          },
+          {
+            "command": "stack.nth-tab-2",
+            "keys": "Ctrl+2"
+          },
+          {
+            "command": "stack.nth-tab-3",
+            "keys": "Ctrl+3"
+          },
+          {
+            "command": "stack.nth-tab-4",
+            "keys": "Ctrl+4"
+          },
+          {
+            "command": "stack.nth-tab-5",
+            "keys": "Ctrl+5"
+          },
+          {
+            "command": "stack.nth-tab-6",
+            "keys": "Ctrl+6"
+          },
+          {
+            "command": "stack.nth-tab-7",
+            "keys": "Ctrl+7"
+          },
+          {
+            "command": "stack.nth-tab-8",
+            "keys": "Ctrl+8"
+          },
+          {
+            "command": "stack.nth-tab-9",
+            "keys": "Ctrl+9"
+          },
+          {
+            "command": "stack.nextTab",
+            "keys": "Ctrl+Tab"
+          }
+        ],
+        "includeInSnapshots": true
+      }
+    ]
+  }
