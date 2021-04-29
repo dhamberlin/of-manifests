@@ -71,7 +71,6 @@
         },
         "frame": false,
         "frameConnect": "last",
-        "icon": "https://news.artnet.com/app/news-upload/2019/01/Cat-Photog-Feat-256x256.jpg",
         "maxHeight": -1,
         "maxWidth": -1,
         "maximizable": true,

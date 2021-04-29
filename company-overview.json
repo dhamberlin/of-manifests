@@ -71,7 +71,6 @@
       },
       "frame": false,
       "frameConnect": "last",
-      "icon": "https://home-dev.openfin.co/icons/favicon.png",
       "maxHeight": -1,
       "maxWidth": -1,
       "maximizable": true,
